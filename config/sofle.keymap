@@ -131,11 +131,6 @@
             bindings = <&kp RIGHT_ALT>;
             key-positions = <30 31>;
         };
-
-        space {
-            bindings = <&kp SPACE>;
-            key-positions = <40 39>;
-        };
     };
 };
 
