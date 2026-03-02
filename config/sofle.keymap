@@ -136,21 +136,6 @@
             bindings = <&kp SPACE>;
             key-positions = <40 39>;
         };
-
-        backspace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <41 40>;
-        };
-
-        delete {
-            bindings = <&kp DEL>;
-            key-positions = <38 39>;
-        };
-
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <44 45>;
-        };
     };
 };
 
