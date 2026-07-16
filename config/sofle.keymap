@@ -157,11 +157,11 @@
         base_layer {
             display-name = "Base";
             bindings = <
-&kp LEFT_GUI  &none  &none  &none  &none  &none                  &none  &none  &none      &none    &none             &kp INSERT
-&none         &kp Q  &kp W  &kp E  &kp R  &kp T                  &kp Y  &kp U  &kp I      &kp O    &kp P             &none
-&none         &kp A  &kp S  &kp D  &kp F  &kp G                  &kp H  &kp J  &kp K      &kp L    &kp SINGLE_QUOTE  &none
-&none         &kp Z  &kp X  &kp C  &kp V  &kp B  &none    &mo 4  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH          &none
-                     &none  &none  &none  &none  &none    &mo 1  &mo 2  &mo 3  &mo 5      &none
+&kp LEFT_GUI  &none  &none  &none  &none    &none                              &none  &none  &none      &none    &none             &kp INSERT
+&none         &kp Q  &kp W  &kp E  &kp R    &kp T                              &kp Y  &kp U  &kp I      &kp O    &kp P             &kp UP_ARROW
+&none         &kp A  &kp S  &kp D  &kp F    &kp G                              &kp H  &kp J  &kp K      &kp L    &kp SINGLE_QUOTE  &kp DOWN_ARROW
+&none         &kp Z  &kp X  &kp C  &kp V    &kp B          &none        &mo 4  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH          &kp ENTER
+                     &none  &none  &kp DEL  &kp BACKSPACE  &kp SPACE    &mo 1  &mo 2  &mo 3  &mo 5      &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -170,11 +170,11 @@
         numbers_layer {
             display-name = "Numbers";
             bindings = <
-&trans  &none  &none  &none  &none  &none                   &none                 &none         &none         &none         &none      &trans
-&none   &none  &none  &none  &none  &none                   &kp NON_US_BACKSLASH  &kp N7        &kp N8        &kp N9        &kp N0     &none
-&none   &none  &none  &none  &none  &none                   &kp GRAVE             &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS  &none
-&none   &none  &none  &none  &none  &none  &none    &trans  &kp SEMICOLON         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &none
-               &none  &none  &none  &none  &none    &trans  &trans                &trans        &trans        &trans
+&trans  &trans  &none  &none  &none  &none                   &none                 &none         &none         &none         &none      &trans
+&none   &none   &none  &none  &none  &none                   &kp NON_US_BACKSLASH  &kp N7        &kp N8        &kp N9        &kp N0     &none
+&none   &none   &none  &none  &none  &none                   &kp GRAVE             &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS  &none
+&none   &none   &none  &none  &none  &none  &none    &trans  &kp SEMICOLON         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &none
+                &none  &none  &none  &none  &none    &trans  &trans                &trans        &trans        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
