@@ -157,11 +157,11 @@
         base_layer {
             display-name = "Base";
             bindings = <
-&kp LEFT_GUI  &none  &none  &none  &none    &none                              &none  &none  &none      &none    &none             &kp INSERT
-&none         &kp Q  &kp W  &kp E  &kp R    &kp T                              &kp Y  &kp U  &kp I      &kp O    &kp P             &kp UP_ARROW
-&none         &kp A  &kp S  &kp D  &kp F    &kp G                              &kp H  &kp J  &kp K      &kp L    &kp SINGLE_QUOTE  &kp DOWN_ARROW
-&none         &kp Z  &kp X  &kp C  &kp V    &kp B          &none        &mo 4  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH          &kp ENTER
-                     &none  &none  &kp DEL  &kp BACKSPACE  &kp SPACE    &mo 1  &mo 2  &mo 3  &mo 5      &none
+&kp LEFT_GUI    &none  &none  &none  &none    &none                              &none  &none  &none      &none    &none             &kp INSERT
+&kp UP_ARROW    &kp Q  &kp W  &kp E  &kp R    &kp T                              &kp Y  &kp U  &kp I      &kp O    &kp P             &none
+&kp DOWN_ARROW  &kp A  &kp S  &kp D  &kp F    &kp G                              &kp H  &kp J  &kp K      &kp L    &kp SINGLE_QUOTE  &none
+&kp ENTER       &kp Z  &kp X  &kp C  &kp V    &kp B          &none        &mo 4  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH          &none
+                       &none  &none  &kp DEL  &kp BACKSPACE  &kp SPACE    &mo 1  &mo 2  &mo 3  &mo 5      &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -207,7 +207,7 @@
         };
 
         config_layer {
-            display-name = "Confg";
+            display-name = "Config";
             bindings = <
 &studio_unlock  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &none   &none   &none           &none   &none  &none
 &none           &none         &none         &kp LS(E)     &none         &none                           &none   &none   &bt BT_CLR_ALL  &none   &none  &none
