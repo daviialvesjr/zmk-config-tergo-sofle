@@ -132,11 +132,6 @@
             bindings = <&kp RIGHT_ALT>;
             key-positions = <30 31>;
         };
-
-        mouse {
-            bindings = <&mo 6>;
-            key-positions = <38 40 39>;
-        };
     };
 };
 
