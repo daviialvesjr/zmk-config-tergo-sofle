@@ -125,7 +125,7 @@
 
         left_alt {
             bindings = <&kp RIGHT_ALT>;
-            key-positions = <41 40>;
+            key-positions = <28 29>;
         };
 
         right_alt {
