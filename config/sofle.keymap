@@ -115,7 +115,7 @@
 
         left_shift_control {
             bindings = <&kp LS(LEFT_CONTROL)>;
-            key-positions = <28 27 26>;
+            key-positions = <38 40 39>;
         };
 
         right_shift_control {
@@ -125,7 +125,7 @@
 
         left_alt {
             bindings = <&kp RIGHT_ALT>;
-            key-positions = <29 28>;
+            key-positions = <41 40>;
         };
 
         right_alt {
