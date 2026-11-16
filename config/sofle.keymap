@@ -104,7 +104,7 @@
         };
 
         mouse {
-            bindings = <&mo 6>;
+            bindings = <&kp LEFT_CONTROL>;
             key-positions = <27 28>;
         };
 
@@ -115,7 +115,7 @@
 
         left_shift_control {
             bindings = <&kp LS(LEFT_CONTROL)>;
-            key-positions = <38 40 39>;
+            key-positions = <28 27 26>;
         };
 
         right_shift_control {
@@ -134,8 +134,8 @@
         };
 
         left_control {
-            bindings = <&kp LEFT_CONTROL>;
-            key-positions = <39 40>;
+            bindings = <&mo 6>;
+            key-positions = <39 40 38>;
         };
 
         toggle_mouse {
