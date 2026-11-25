@@ -135,7 +135,7 @@
 
         left_control {
             bindings = <&mo 6>;
-            key-positions = <39 40>;
+            key-positions = <39 40 38>;
         };
 
         toggle_mouse {
